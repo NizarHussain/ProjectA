@@ -1,7 +1,7 @@
 package com.tutorialspoint;
 
-public class SpellChecker {
-	   public SpellChecker(){
+public class ByNameSpellChecker {
+	   public ByNameSpellChecker(){
 	      System.out.println("Inside SpellChecker constructor." );
 	   }
 	   public void checkSpelling(){

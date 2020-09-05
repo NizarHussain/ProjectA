@@ -1,16 +1,16 @@
 package com.tutorialspoint;
 
 public class TextEditor {
-	private SpellChecker spellChecker;
+	private ByNameSpellChecker spellChecker;
 
 	// a setter method to inject the dependency.
-	public void setSpellChecker(SpellChecker spellChecker) {
+	public void setSpellChecker(ByNameSpellChecker spellChecker) {
 		System.out.println("Inside setSpellChecker.");
 		this.spellChecker = spellChecker;
 	}
 
 	// a getter method to return spellChecker
-	public SpellChecker getSpellChecker() {
+	public ByNameSpellChecker getSpellChecker() {
 		return spellChecker;
 	}
 
